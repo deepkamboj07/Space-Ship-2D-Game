@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:src="@drawable/space"
+          android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_name"
+        android:textSize="45dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="SPACE CRASH"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play"
+        android:textSize="45dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="PLAY"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/game_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscoreText"
+        android:textSize="20dp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/white"
+        android:text="HIGH SCORE"
+       android:layout_marginStart="590dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="310dp"
+        android:id="@+id/volume"
+        android:src="@drawable/ic_baseline_volume_up_24" />
+
+
+
+
+</RelativeLayout>
